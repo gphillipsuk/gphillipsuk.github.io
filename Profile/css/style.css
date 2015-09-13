@@ -1,0 +1,68 @@
+/* This is a comment */
+
+body {
+	background-color: #4C8A9E;
+	color: white;
+	background-image: url(../images/wave.jpg);
+	background-size: cover;
+	background-position: 100% 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+		max-width: 600px;
+		background-color: rgba(50,50,50,0.7);
+		margin: 30px auto;
+		padding: 40px;
+		border-radius: 50px;
+		box-shadow: 10px 10px 30px 20px rgba(255,255,255,0.7);
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+	margin-bottom: 40px;
+	text-shadow: 5px 5px 5px black;
+	font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+	text-align: center; 
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+.face {
+	display: block;
+	margin: 0 auto;
+	border: 12px solid white;
+	border-radius: 50% 10% 50% 50%;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	color: #aa0045;
+	text-decoration: none;
+	font-weight: bold; 
+}
+a:focus,
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	}
